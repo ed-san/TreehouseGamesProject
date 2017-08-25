@@ -25,6 +25,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 459774}
+  - component: {fileID: 114530626646453098}
   m_Layer: 0
   m_Name: Geometry
   m_TagString: Untagged
@@ -91,6 +92,7 @@ GameObject:
   - component: {fileID: 490482}
   - component: {fileID: 9548390}
   - component: {fileID: 13512948}
+  - component: {fileID: 114307505307920268}
   m_Layer: 0
   m_Name: Fly
   m_TagString: Untagged
@@ -359,3 +361,27 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 194920}
   m_IsPrefabParent: 1
+--- !u!114 &114307505307920268
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 194920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c1eb25eccf1047d7926b5ac2494c335, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupPrefab: {fileID: 195284, guid: 788be48bf54627d42a4446d66cc6683b, type: 2}
+--- !u!114 &114530626646453098
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c51aca133314c1ea6e22a1846ab7b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  center: {fileID: 490482}
