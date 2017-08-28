@@ -11,7 +11,7 @@ public class FlySpawner : MonoBehaviour {
 	[SerializeField]
 	private int totalFlyMinimum = 12;
 
-	private float spawnArea = 25f;
+	private float spawnArea = 24f;
 
 	public static int totalFlies;
 
